@@ -1,5 +1,5 @@
 # full stack template
-python 的全栈开发项目模版
+python使用fast api +celery 做为后端加 vue前端的全栈开发项目模版
 
 ## 项目描述
 ### 总体目录
