@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
-from backend.app.core.celery_app import cel
-from backend.app.core.logger import logger
+from app.core.celery_app import cel
+from app.core.logger import logger
 import requests
 
 

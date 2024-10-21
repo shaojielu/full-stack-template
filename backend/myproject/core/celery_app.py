@@ -2,7 +2,7 @@
 """celery后台任务配置
 """
 from celery import Celery
-from backend.app.core.config import settings
+
 cel = Celery('tasks',
              broker=BROKER,  # 消息代理用 RabbitMQ
              backend=BACKEND,  # 存储结果用redis
@@ -13,7 +13,7 @@ cel = Celery('tasks',
                       ]
              )
 # 自动发现任务
-# app.autodiscover_tasks(['fdb.tasks'])
+# myproject.autodiscover_tasks(['fdb.tasks'])
 # 时区
 cel.conf.timezone = 'Asia/Shanghai'
 # 是否使用UTC

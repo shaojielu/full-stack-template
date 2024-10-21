@@ -2,9 +2,9 @@
 """辅助函数
 - 具体实现的辅助函数
 """
-from backend.app.models import TaskResult
-from backend.app.core.celery_app import cel
-from backend.app.core.logger import logger
+from app.models import TaskResult
+from app.core.celery_app import cel
+from app.core.logger import logger
 from celery.result import AsyncResult
 
 
