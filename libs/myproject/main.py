@@ -3,7 +3,7 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 # from api.main import api_router
-from backend.app.api_server.api import extract, doc_parsing, chat, vectorstotes
+from libs.myproject.api import extract, doc_parsing, chat, vectorstotes
 
 app = FastAPI(
     title='python全栈开发后台API',
