@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
 from core.config import settings
-from api.v1.api_v1 import v1_router
+from api.v1.v1_router import v1_router
 
 
 app = FastAPI(title="通用全栈开发模版后端api",
